@@ -1,0 +1,147 @@
+body {
+    display: block;
+
+}
+
+
+
+.triangle {
+
+
+    width: 0px;
+    height: 0px;
+    border-bottom: calc(100px * 1.732) solid;
+    border-color: gold;
+
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: relative;
+    top: 80px;
+    z-index: 1;
+
+}
+
+.st1 {
+    background-color: salmon;
+    width: 88px;
+    height: 10px;
+    position: relative;
+    z-index: 2;
+    top: -20px;
+    margin-left: 55px;
+    border-radius: 20%;
+
+}
+
+.st2 {
+    background-color: salmon;
+    width: 155px;
+    height: 10px;
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    margin-left: 22px;
+    border-radius: 20%;
+
+}
+
+.face {
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.ebleft {
+    background-color: black;
+    width: 50px;
+    height: 10px;
+    position: relative;
+    top: 35%;
+    z-index: 1;
+    transform: translate(50%, -50%);
+
+}
+
+.ebright {
+    background-color: black;
+    width: 50px;
+    height: 10px;
+    position: relative;
+    top: 35%;
+    z-index: 1;
+    transform: translate(230%, -150%);
+}
+
+.eyeleft {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: black;
+    position: relative;
+    top: 30%;
+    z-index: 1;
+    transform: translate(250%, 50%);
+}
+
+.eyeright {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: black;
+    position: relative;
+    top: 30%;
+    z-index: 1;
+    transform: translate(600%, -50%);
+}
+
+.nose {
+    width: 0px;
+    height: 0px;
+    border-bottom: calc(20px * 1.732) solid sandybrown;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: relative;
+    top: 30%;
+    z-index: 1;
+    transform: translate(440%, -50%);
+}
+
+.mouth {
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: red;
+    position: relative;
+    top: 30%;
+    z-index: 1;
+    transform: translate(150%, -10%);
+}
+
+.left-hair {
+
+    width: 0px;
+    height: 0px;
+    border-bottom: 70px solid black;
+    border-left: 50px solid transparent;
+    border-right: 10px solid transparent;
+    position: relative;
+    top: 30%;
+    z-index: -1;
+    transform: translate(10%, -85%);
+
+}
+
+.right-hair {
+
+    width: 0px;
+    height: 0px;
+    border-bottom: 70px solid black;
+    border-left: 10px solid transparent;
+    border-right: 50px solid transparent;
+    position: relative;
+    top: 30%;
+    z-index: -1;
+    transform: translate(230%, -185%);
+
+}
